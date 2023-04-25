@@ -1,0 +1,40 @@
+{
+  "name": "ahathaway/strapi-provider-email-sparkpost",
+  "version": "1.0.0",
+  "description": "sparkpost provider for strapi email",
+  "keywords": [
+    "email",
+    "strapi"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "name": "Alex Hathaway",
+    "email": "alex@hathaway.xyz"
+  },
+  "maintainers": [
+    {
+      "name": "Alex Hathaway",
+      "email": "alex@hathaway.xyz"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=8"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "sparkpost": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/sparkpost": "^2.1.5",
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
