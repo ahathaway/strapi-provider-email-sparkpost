@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-email-sparkpost",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "sparkpost provider for strapi email",
   "keywords": [
     "email",
