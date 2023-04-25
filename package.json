@@ -1,5 +1,5 @@
 {
-  "name": "ahathaway/strapi-provider-email-sparkpost",
+  "name": "strapi-provider-email-sparkpost",
   "version": "1.0.1",
   "description": "sparkpost provider for strapi email",
   "keywords": [
